@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(to right, #FAACA8 0%, #DDD6F3 100%);
+    font-family: 'Nanum Pen Script', cursive;
+}
+.container{
+    background-color: #212042;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 33%;
+    height: 600px;
+    width: 35%;
+    box-shadow: rgb(38, 57, 77) 0px 50px 80px -10px;
+    border-radius: 12px; 
+}
+.form-container{
+    text-align: center;
+    color: white;
+}
+.icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+.icon-container>i:hover{
+    cursor: pointer;
+    background: #f2f2f228;  
+}
+hr{
+    width: 80%;
+    margin-top: 3%;
+}
